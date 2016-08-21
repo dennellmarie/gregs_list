@@ -1,5 +1,6 @@
 html {
 	font-family: "Roboto", sans-serif;
+<<<<<<< HEAD
 	margin: 0px;
 	padding: 0px;
 }
@@ -104,3 +105,37 @@ main {
 	color: yellow;
 }
 
+=======
+}
+
+.fixed-nav {
+	display: inline;
+	position: fixed;
+	width: 100%;
+}
+
+header {
+	float: left;
+}
+
+.menu-top {
+	display: inline;
+	text-align: right;
+}
+
+.fixed-nav {
+	position: fixed;
+	background-color: #EEEEEE;
+}
+
+.menu {
+	text-decoration: none;
+	color: #551A8B;
+	display: inline;
+	text-align: right;
+}
+
+.search {
+	margin-top: 100px;
+}
+>>>>>>> 02783826aedb17545bc9e0c4873345acb5e570c6
