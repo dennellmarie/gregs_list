@@ -1,6 +1,5 @@
 html {
 	font-family: "Roboto", sans-serif;
-<<<<<<< HEAD
 	margin: 0px;
 	padding: 0px;
 }
@@ -9,6 +8,42 @@ body {
 	margin: 0px;
 	padding: 0px;
 	margin-top: -15px;
+}
+
+.fixed-nav {
+	display: inline;
+	position: fixed;
+	width: 100%;
+	background-color: #EEEEEE;
+	margin-top: -85px;
+	padding-bottom: 10px;
+}
+
+header {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.menu-top {
+	display: inline;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.menu {
+	text-decoration: none;
+	color: #551A8B;
+	display: inline;
+	text-align: right;
+	font-size: 18px;
+}
+
+/*.fixed-nav {
+	width: 100%;
+	padding-bottom: 10px;
+	margin-top: -85px;
 }
 
 .heading {
@@ -25,10 +60,15 @@ header {
 	float: left;
 	margin-left: 10px;
 	margin-top: 15px;
+}*/
+
+.search-results {
+	margin-left: 50px;
 }
 
 ul .menu {
 	float: right;
+	padding-right: 10px;
 }
 
 ul .menu a:hover {
@@ -67,6 +107,8 @@ ul .menu a:hover {
 	width: 400px;
 	padding: 5px;
 	margin-bottom: 20px;
+	/*border-radius: 5px
+	border-radius makes shadow-how to get rounded corners without changing border weight*/
 }
 
 .previous-current-next li {
@@ -82,18 +124,27 @@ ul .menu a:hover {
 	color: black;
 }
 
+.results {
+	font-size: 14px;
+}
+
 .results li {
 	display: block;
 	padding: 10px;
+	font-size: 16px;
 }
 
 .grey {
 	color: #999999;
 	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-.blue a {
+.blue {
 	text-decoration: none;
+	color: #0000EE;
+	font-weight: bold;
 }
 
 main {
@@ -101,41 +152,14 @@ main {
 }
 
 /*how can I get the star to turn yellow with the hover attribute since it's not a link*/
-.fa: hover {
+.fa:hover {
 	color: yellow;
 }
 
-=======
-}
-
-.fixed-nav {
-	display: inline;
-	position: fixed;
-	width: 100%;
-}
-
-header {
-	float: left;
-}
-
-.menu-top {
-	display: inline;
-	text-align: right;
-}
-
-.fixed-nav {
-	position: fixed;
-	background-color: #EEEEEE;
-}
-
-.menu {
-	text-decoration: none;
-	color: #551A8B;
-	display: inline;
-	text-align: right;
+.fa {
+	font-size: 20px;
 }
 
 .search {
 	margin-top: 100px;
 }
->>>>>>> 02783826aedb17545bc9e0c4873345acb5e570c6
